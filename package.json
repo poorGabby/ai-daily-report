@@ -1,0 +1,13 @@
+{
+  "name": "ai-daily-report",
+  "version": "1.0.0",
+  "description": "AI Daily Report - 每日AI资讯日报",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
+}

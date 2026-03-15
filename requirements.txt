@@ -1,0 +1,8 @@
+tavily
+openai>=1.0.0
+pyyaml
+python-dotenv
+requests
+beautifulsoup4
+markdown
+jinja2

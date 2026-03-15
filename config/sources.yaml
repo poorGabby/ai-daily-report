@@ -1,0 +1,118 @@
+# 日报分类配置
+categories:
+  technology:
+    name: "Technology"
+    name_zh: "技术发布"
+    description: "AI模型、API、开源项目、Agent、Infra"
+    search_queries:
+      - "OpenAI new model release GPT"
+      - "Google Gemini new model API"
+      - "Anthropic Claude new release"
+      - "Meta AI Llama new model"
+      - "AI Agent framework release"
+      - "AI Infrastructure tool launch"
+      - "new AI SDK API release"
+      - "video generation AI model"
+      - "voice AI model new release"
+      - "RAG framework tool release"
+      - "reasoning AI model benchmark"
+    include_domains:
+      - openai.com
+      - blog.google
+      - anthropic.com
+      - ai.meta.com
+      - github.com
+      - arxiv.org
+      - huggingface.co
+    days_back: 1
+
+  product:
+    name: "Product"
+    name_zh: "产品发布"
+    description: "AI App、工具、浏览器、搜索、Copilot"
+    search_queries:
+      - "new AI app launch"
+      - "AI browser release"
+      - "AI search engine launch"
+      - "AI Copilot product"
+      - "AI workflow tool release"
+      - "Notion AI new feature"
+      - "Figma AI release"
+      - "AI productivity tool launch"
+    include_domains: []
+    days_back: 1
+
+  startup:
+    name: "Startup"
+    name_zh: "创业融资"
+    description: "AI startup融资、收购、新公司"
+    search_queries:
+      - "AI startup funding round"
+      - "AI company acquisition"
+      - "new AI startup launched"
+      - "venture capital AI investment"
+      - "a16z AI investment"
+      - "Sequoia AI funding"
+      - "AI unicorn funding"
+    include_domains:
+      - techcrunch.com
+      - crunchbase.com
+      - pitchbook.com
+      - theinformation.com
+    days_back: 1
+
+  bigtech:
+    name: "BigTech"
+    name_zh: "大厂战略"
+    description: "OpenAI、Google、Apple、Microsoft、Meta、Amazon战略"
+    search_queries:
+      - "OpenAI strategy announcement"
+      - "Google AI strategy"
+      - "Apple AI plans"
+      - "Microsoft AI strategy"
+      - "Meta AI roadmap"
+      - "Amazon AI initiatives"
+    include_domains:
+      - openai.com
+      - blog.google
+      - apple.com
+      - microsoft.com
+      - about.fb.com
+      - amazon.science
+    days_back: 1
+
+  uxtrend:
+    name: "UX Trend"
+    name_zh: "设计趋势"
+    description: "AI交互方式、Prompt UX、Agent UX、Workflow"
+    search_queries:
+      - "AI interaction design pattern"
+      - "Prompt UX best practice"
+      - "Agent UX design"
+      - "AI workflow design"
+      - "Cursor AI UX"
+      - "ChatGPT UI update"
+      - "AI product design trend"
+    include_domains:
+      - uxdesign.cc
+      - medium.com
+      - figma.com
+    days_back: 3
+
+# Tavily API配置
+tavily:
+  max_results_per_query: 5
+  search_depth: "advanced"
+  include_answer: false
+
+# Kimi API配置
+kimi:
+  model: "moonshot-v1-128k"
+  temperature: 0.3
+  max_tokens: 8000
+
+# 日报配置
+report:
+  max_items_per_category: 10
+  min_relevance_score: 0.6
+  summary_max_length: 500

@@ -1,0 +1,85 @@
+name: Daily AI Report
+
+on:
+  schedule:
+    # 每天 UTC 00:00 运行 (北京时间 08:00)
+    - cron: '0 0 * * *'
+  
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install Python dependencies
+      run: |
+        pip install -r requirements.txt
+        
+    - name: Install Node.js dependencies
+      run: |
+        npm install
+        
+    - name: Generate daily report
+      env:
+        TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+      run: |
+        cd scripts
+        python generate_daily.py
+        
+    - name: Copy data to docs
+      run: |
+        mkdir -p docs/data/processed
+        cp -r data/processed/* docs/data/processed/ 2>/dev/null || true
+        # 创建最新数据链接
+        latest_file=$(ls -t data/processed/*.json | head -1)
+        if [ -n "$latest_file" ]; then
+          cp "$latest_file" docs/data/processed/latest.json
+        fi
+        # 创建索引
+        echo '{"reports":[' > docs/data/processed/index.json
+        first=true
+        for f in $(ls -t data/processed/*.json | head -30); do
+          if [ "$first" = true ]; then
+            first=false
+          else
+            echo ',' >> docs/data/processed/index.json
+          fi
+          date=$(basename "$f" .json)
+          summary=$(python3 -c "import json; print(json.load(open('$f')).get('daily_summary','')[:100]+'...')" 2>/dev/null || echo '')
+          echo "{\"date\":\"$date\",\"summary\":\"$summary\"}" >> docs/data/processed/index.json
+        done
+        echo ']}' >> docs/data/processed/index.json
+        
+    - name: Build VitePress site
+      run: |
+        npm run docs:build
+        
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs/.vitepress/dist
+        publish_branch: gh-pages
+        
+    - name: Commit data changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/ docs/
+        git diff --staged --quiet || (git commit -m "Update daily report for $(date +%Y-%m-%d)" && git push)
