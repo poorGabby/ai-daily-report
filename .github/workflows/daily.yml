@@ -11,6 +11,10 @@ on:
 jobs:
   generate-report:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     
     steps:
     - name: Checkout repository
@@ -78,8 +82,7 @@ jobs:
         publish_branch: gh-pages
         
     - name: Commit data changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add data/ docs/
-        git diff --staged --quiet || (git commit -m "Update daily report for $(date +%Y-%m-%d)" && git push)
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update daily report for ${{ github.run_date }}"
+        file_pattern: 'data/ docs/'
