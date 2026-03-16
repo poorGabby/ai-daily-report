@@ -33,7 +33,8 @@ class AIProcessor:
         self,
         title: str,
         content: str,
-        category: str
+        category: str,
+        is_product_hunt: bool = False
     ) -> Dict[str, str]:
         """
         翻译并生成结构化摘要
@@ -47,7 +48,30 @@ class AIProcessor:
                 "example": "示例"
             }
         """
-        prompt = f"""请分析以下{category}领域的文章，并按要求输出：
+        if is_product_hunt:
+            prompt = f"""请分析以下 Product Hunt 上的 AI 产品，并按要求输出：
+
+产品名称和简介：{title}
+
+详细描述：
+{content[:3000]}
+
+请输出以下JSON格式（不要包含markdown代码块标记）：
+{{
+    "title_zh": "产品中文名称（保持原名或简洁翻译）",
+    "summary": "用一句话概括产品核心功能（30字以内）",
+    "problem": "这个产品能解决用户什么问题（50字以内）",
+    "applicable": "适合什么场景使用，目标用户是谁（50字以内）",
+    "example": "一个具体的使用场景示例（30字以内）"
+}}
+
+要求：
+1. 产品名称可以保留英文或简洁翻译
+2. 所有字段用中文回答
+3. 突出产品的创新点和实用价值
+4. 只输出JSON，不要其他内容"""
+        else:
+            prompt = f"""请分析以下{category}领域的文章，并按要求输出：
 
 原标题：{title}
 

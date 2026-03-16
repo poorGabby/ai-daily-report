@@ -26,6 +26,19 @@ categories:
       - huggingface.co
     days_back: 1
 
+  producthunt:
+    name: "Product Hunt"
+    name_zh: "Product Hunt"
+    description: "Product Hunt 热门 AI 产品"
+    search_queries:
+      - "Product Hunt AI product today trending"
+      - "Product Hunt top AI tools launch"
+      - "Product Hunt artificial intelligence"
+      - "Product Hunt GPT AI app"
+    include_domains:
+      - producthunt.com
+    days_back: 1
+
   product:
     name: "Product"
     name_zh: "产品发布"

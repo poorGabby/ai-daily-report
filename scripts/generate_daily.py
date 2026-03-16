@@ -11,6 +11,7 @@ from pathlib import Path
 
 from searcher import TavilySearcher
 from ai_processor import AIProcessor
+from product_hunt import ProductHuntClient
 
 
 class DailyReportGenerator:
@@ -18,6 +19,7 @@ class DailyReportGenerator:
         self.config = self._load_config()
         self.searcher = TavilySearcher()
         self.processor = AIProcessor()
+        self.ph_client = ProductHuntClient()
         
         # 确保目录存在（基于项目根目录）
         script_dir = Path(__file__).parent
@@ -90,7 +92,34 @@ class DailyReportGenerator:
         categories = self.config.get("categories", {})
         raw_data = {}
         
+        # 收集 Product Hunt 数据（如果有 API Key）
+        print("\n收集 Product Hunt 数据...")
+        ph_posts = self.ph_client.get_trending_posts(days=1)
+        if ph_posts:
+            print(f"  Product Hunt 找到 {len(ph_posts)} 个 AI 产品")
+            # 将 Product Hunt 数据转换为 Tavily 格式
+            ph_results = []
+            for post in ph_posts:
+                ph_results.append({
+                    "title": f"{post['title']} - {post['tagline']}",
+                    "content": post.get('description', post['tagline']),
+                    "url": post['url'],
+                    "source": "Product Hunt",
+                    "score": min(post.get('votes', 0) / 100, 1.0),  # 归一化分数
+                    "published_date": post.get('featured_at', ''),
+                    "votes": post.get('votes', 0),
+                    "comments": post.get('comments', 0),
+                    "topics": post.get('topics', [])
+                })
+            raw_data['producthunt'] = ph_results
+        else:
+            print("  Product Hunt API 未配置或无数据，使用 Tavily 搜索")
+        
         for key, category_config in categories.items():
+            # 如果已经通过 Product Hunt API 获取了数据，跳过
+            if key == 'producthunt' and 'producthunt' in raw_data:
+                continue
+            
             print(f"\n收集分类: {category_config.get('name_zh', key)}")
             results = self.searcher.search_category(category_config)
             raw_data[key] = results
@@ -113,10 +142,12 @@ class DailyReportGenerator:
                 print(f"  处理 {i+1}/{len(items)}: {item.get('title', '')[:50]}...")
                 
                 # AI处理
+                is_ph = category_key == 'producthunt'
                 ai_result = self.processor.translate_and_summarize(
                     title=item.get("title", ""),
                     content=item.get("content", ""),
-                    category=category_name
+                    category=category_name,
+                    is_product_hunt=is_ph
                 )
                 
                 processed_item = {
@@ -128,6 +159,9 @@ class DailyReportGenerator:
                     "applicable": ai_result.get("applicable", ""),
                     "example": ai_result.get("example", ""),
                     "published_date": item.get("published_date"),
+                    "votes": item.get("votes", 0),
+                    "comments": item.get("comments", 0),
+                    "topics": item.get("topics", []),
                     "source": item.get("source", ""),
                     "score": item.get("score", 0)
                 }
@@ -216,7 +250,32 @@ category: {category_config.get('name', category_key)}
 """
         
         for i, item in enumerate(items, 1):
-            content += f"""### {i}. {item.get('title_zh', item.get('title', ''))}
+            # Product Hunt 特殊格式
+            if category_key == 'producthunt':
+                votes = item.get('votes', 0)
+                comments = item.get('comments', 0)
+                topics = item.get('topics', [])
+                topics_str = ', '.join(topics[:3]) if topics else ''
+                
+                content += f"""### {i}. {item.get('title_zh', item.get('title', ''))}
+
+🔗 [{item.get('title', '')}]({item.get('url', '')})
+
+> 🏆 {votes} 票 · 💬 {comments} 评论{f' · 🏷️ {topics_str}' if topics_str else ''}
+
+**一句话介绍**: {item.get('summary', '')}
+
+**解决什么问题**: {item.get('problem', '')}
+
+**适用场景**: {item.get('applicable', '')}
+
+**使用示例**: {item.get('example', '')}
+
+---
+
+"""
+            else:
+                content += f"""### {i}. {item.get('title_zh', item.get('title', ''))}
 
 **原文标题**: [{item.get('title', '')}]({item.get('url', '')})
 
@@ -272,13 +331,25 @@ type: summary
 
 {category_summary}
 
-| # | 标题 | 核心看点 |
+"""
+            # Product Hunt 特殊表格格式
+            if category_key == 'producthunt':
+                content += """| # | 产品 | 票数 | 核心看点 |
+|---|------|------|----------|
+"""
+                for i, item in enumerate(items[:5], 1):
+                    title = item.get('title_zh', item.get('title', ''))[:30]
+                    votes = item.get('votes', 0)
+                    summary = item.get('summary', '')[:40]
+                    content += f"| {i} | [{title}](./daily/{date}-{category_key}.md) | 🏆 {votes} | {summary}... |\n"
+            else:
+                content += """| # | 标题 | 核心看点 |
 |---|------|----------|
 """
-            for i, item in enumerate(items[:5], 1):
-                title = item.get('title_zh', item.get('title', ''))[:40]
-                summary = item.get('summary', '')[:50]
-                content += f"| {i} | [{title}](./daily/{date}-{category_key}.md) | {summary}... |\n"
+                for i, item in enumerate(items[:5], 1):
+                    title = item.get('title_zh', item.get('title', ''))[:40]
+                    summary = item.get('summary', '')[:50]
+                    content += f"| {i} | [{title}](./daily/{date}-{category_key}.md) | {summary}... |\n"
             
             content += "\n---\n\n"
         
