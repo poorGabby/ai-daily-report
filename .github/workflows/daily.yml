@@ -95,3 +95,5 @@ jobs:
         commit_message: "Update daily report for ${{ github.run_date }}"
         file_pattern: 'data/ docs/'
         branch: main
+        skip_fetch: true
+        skip_checkout: true
