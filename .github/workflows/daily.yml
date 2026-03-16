@@ -74,8 +74,13 @@ jobs:
       run: |
         npm run docs:build
         
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./docs/.vitepress/dist
@@ -86,3 +91,4 @@ jobs:
       with:
         commit_message: "Update daily report for ${{ github.run_date }}"
         file_pattern: 'data/ docs/'
+        branch: main
