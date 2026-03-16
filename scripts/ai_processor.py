@@ -81,29 +81,46 @@ class AIProcessor:
             )
             
             content = response.choices[0].message.content.strip()
+            print(f"AI raw response: {content[:200]}...")
             
             # 清理可能的markdown代码块
             if content.startswith("```json"):
                 content = content[7:]
-            if content.startswith("```"):
+            elif content.startswith("```"):
                 content = content[3:]
             if content.endswith("```"):
                 content = content[:-3]
             
+            # 清理其他可能的包裹
             content = content.strip()
+            if content.startswith('"') and content.endswith('"'):
+                content = content[1:-1]
             
-            result = json.loads(content)
+            # 尝试解析JSON
+            try:
+                result = json.loads(content)
+            except json.JSONDecodeError as je:
+                print(f"JSON parse error: {je}, trying to extract JSON...")
+                # 尝试从文本中提取JSON
+                import re
+                json_match = re.search(r'\{[\s\S]*\}', content)
+                if json_match:
+                    result = json.loads(json_match.group())
+                else:
+                    raise je
+            
             return result
             
         except Exception as e:
             print(f"AI processing error: {e}")
+            print(f"Raw content: {content[:200] if 'content' in locals() else 'N/A'}")
             # 返回默认结构
             return {
                 "title_zh": title,
-                "summary": "内容解析失败",
-                "problem": "未知",
-                "applicable": "未知",
-                "example": "未知"
+                "summary": f"内容解析失败: {str(e)[:50]}",
+                "problem": "解析失败",
+                "applicable": "解析失败",
+                "example": "解析失败"
             }
     
     def generate_category_summary(
