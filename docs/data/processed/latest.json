@@ -1,9 +1,39 @@
 {
-  "date": "2026-10-10",
-  "generated_at": "2026-10-10T05:25:04.605315",
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T05:16:55.189488",
   "daily_summary": "今日共收集到60条AI领域重要资讯，涵盖技术发布、产品动态、融资等多个维度。",
   "categories": {
     "technology": [
+      {
+        "title": "A Survey on Generative AI and LLM for Video Generation, Understanding, and Streaming",
+        "title_zh": "A Survey on Generative AI and LLM for Video Generation, Understanding, and Streaming",
+        "url": "https://arxiv.org/html/2404.16038v1",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8943568
+      },
+      {
+        "title": "GitHub - jqueryscript/anthropic-claude-timeline: A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones. · GitHub",
+        "title_zh": "GitHub - jqueryscript/anthropic-claude-timeline: A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones. · GitHub",
+        "url": "https://github.com/jqueryscript/anthropic-claude-timeline",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.87605256
+      },
       {
         "title": "State of open video generation models in Diffusers",
         "title_zh": "State of open video generation models in Diffusers",
@@ -18,6 +48,21 @@
         "topics": [],
         "source": "tavily",
         "score": 0.86413884
+      },
+      {
+        "title": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms",
+        "title_zh": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms",
+        "url": "https://arxiv.org/html/2603.28489v1",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.86052185
       },
       {
         "title": "Model Release Notes | OpenAI Help Center",
@@ -80,9 +125,9 @@
         "score": 0.8539252
       },
       {
-        "title": "Exploring the Interplay Between Video Generation and ...",
-        "title_zh": "Exploring the Interplay Between Video Generation and ...",
-        "url": "https://arxiv.org/html/2411.02914v1",
+        "title": "Leveraging Pre-Trained Visual Models for AI-Generated Video Detection",
+        "title_zh": "Leveraging Pre-Trained Visual Models for AI-Generated Video Detection",
+        "url": "https://arxiv.org/html/2507.13224v1",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -92,7 +137,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.8524574
+        "score": 0.852752
       },
       {
         "title": "New Gemini Audio models for developers",
@@ -108,51 +153,6 @@
         "topics": [],
         "source": "tavily",
         "score": 0.85186684
-      },
-      {
-        "title": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms",
-        "title_zh": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms",
-        "url": "https://arxiv.org/html/2603.28489v2",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.85008353
-      },
-      {
-        "title": "Release notes | Claude Help Center",
-        "title_zh": "Release notes | Claude Help Center",
-        "url": "https://docs.anthropic.com/en/release-notes/claude-apps",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.84918517
-      },
-      {
-        "title": "ChatGPT release notes | OpenAI Help Center",
-        "title_zh": "ChatGPT release notes | OpenAI Help Center",
-        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.84767824
       }
     ],
     "producthunt": [
@@ -170,6 +170,21 @@
         "topics": [],
         "source": "tavily",
         "score": 0.8302782
+      },
+      {
+        "title": "WorkGPT: Your Ultimate GPT-powered AI Assistant for Google Workspace | Product Hunt",
+        "title_zh": "WorkGPT: Your Ultimate GPT-powered AI Assistant for Google Workspace | Product Hunt",
+        "url": "https://www.producthunt.com/products/workgpt",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8259413
       },
       {
         "title": "AI Launch List: 100+ AI directories to showcase your AI products | Product Hunt",
@@ -217,9 +232,9 @@
         "score": 0.7533401
       },
       {
-        "title": "Best of Product Hunt: August 4, 2026 | Product Hunt",
-        "title_zh": "Best of Product Hunt: August 4, 2026 | Product Hunt",
-        "url": "https://www.producthunt.com/leaderboard/daily/2026/8/4",
+        "title": "Glam AI: Pick a trend, add your photo, and create viral content | Product Hunt",
+        "title_zh": "Glam AI: Pick a trend, add your photo, and create viral content | Product Hunt",
+        "url": "https://www.producthunt.com/products/glam-ai",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -229,7 +244,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.7460839
+        "score": 0.7429634
       },
       {
         "title": "Best of Product Hunt: May 2026 | Product Hunt",
@@ -277,9 +292,9 @@
         "score": 0.7352811
       },
       {
-        "title": "The best AI software to try in 2026 | Product Hunt",
-        "title_zh": "The best AI software to try in 2026 | Product Hunt",
-        "url": "https://www.producthunt.com/categories/ai-software",
+        "title": "1min.AI: All-in-one AI app, powered by various AI models | Product Hunt",
+        "title_zh": "1min.AI: All-in-one AI app, powered by various AI models | Product Hunt",
+        "url": "https://www.producthunt.com/products/1min-ai",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -289,22 +304,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.7327644
-      },
-      {
-        "title": "Best open-source products launched on Product Hunt in 2026?",
-        "title_zh": "Best open-source products launched on Product Hunt in 2026?",
-        "url": "https://www.producthunt.com/p/github/best-open-source-products-launched-on-product-hunt-in-2026",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.7197191
+        "score": 0.73505294
       }
     ],
     "product": [
@@ -324,6 +324,21 @@
         "score": 0.8995547
       },
       {
+        "title": "OpenAI is reportedly releasing an AI browser in the coming weeks | TechCrunch",
+        "title_zh": "OpenAI is reportedly releasing an AI browser in the coming weeks | TechCrunch",
+        "url": "https://techcrunch.com/2025/07/09/openai-is-reportedly-releasing-an-ai-browser-in-the-coming-weeks",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8703443
+      },
+      {
         "title": "6 NEW Features in the Notion 3.4 Update | Full Tutorial & Guide",
         "title_zh": "6 NEW Features in the Notion 3.4 Update | Full Tutorial & Guide",
         "url": "https://www.youtube.com/watch?v=VDwpfCSAu3I",
@@ -339,9 +354,9 @@
         "score": 0.86441374
       },
       {
-        "title": "6 NEW Features in the Notion 3.4 Update | Full Tutorial & Guide",
-        "title_zh": "6 NEW Features in the Notion 3.4 Update | Full Tutorial & Guide",
-        "url": "https://www.youtube.com/watch?v=VDwpfCSAu3I&xstg=CAMSBhUDzO3xHw%3D%3D",
+        "title": "Introducing AI Copilot for Product Managers",
+        "title_zh": "Introducing AI Copilot for Product Managers",
+        "url": "https://www.tempo.new/blog/tempo-ai-copilot-for-product-managers",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -351,22 +366,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.86441374
-      },
-      {
-        "title": "OpenAI to launch AI search engine the day before Google I/O",
-        "title_zh": "OpenAI to launch AI search engine the day before Google I/O",
-        "url": "https://9to5google.com/2024/05/09/open-ai-google-search-report",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.86331123
+        "score": 0.8638634
       },
       {
         "title": "Changelog - Notion Docs",
@@ -386,7 +386,7 @@
       {
         "title": "18 New Notion Updates (in 18 minutes)",
         "title_zh": "18 New Notion Updates (in 18 minutes)",
-        "url": "https://www.youtube.com/watch?v=g6u7_B8IrQc&xstg=CAMSBhUDzO3xHw%3D%3D",
+        "url": "https://www.youtube.com/watch?v=g6u7_B8IrQc",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -399,9 +399,24 @@
         "score": 0.8536326
       },
       {
-        "title": "Zoom launches AI Productivity Suite, built around conversations, to turn meetings into deliverables | Zoom",
-        "title_zh": "Zoom launches AI Productivity Suite, built around conversations, to turn meetings into deliverables | Zoom",
-        "url": "https://news.zoom.com/zoom-launches-ai-productivity-suite",
+        "title": "the new notion update makes using AI HORRIBLE",
+        "title_zh": "the new notion update makes using AI HORRIBLE",
+        "url": "https://www.reddit.com/r/Notion/comments/1rhu0f8/the_new_notion_update_makes_using_ai_horrible",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8533396
+      },
+      {
+        "title": "OpenAI to launch AI search engine the day before Google I/O",
+        "title_zh": "OpenAI to launch AI search engine the day before Google I/O",
+        "url": "https://9to5google.com/2024/05/09/open-ai-google-search-report",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -414,9 +429,9 @@
         "score": 0.8455478
       },
       {
-        "title": "Workflows Overview · digital.ai Release",
-        "title_zh": "Workflows Overview · digital.ai Release",
-        "url": "https://docs.digital.ai/release/docs/how-to/workflows-overview",
+        "title": "Figma Release Notes - August 2026 Latest Updates - Releasebot",
+        "title_zh": "Figma Release Notes - August 2026 Latest Updates - Releasebot",
+        "url": "https://releasebot.io/updates/figma",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -426,12 +441,12 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.8364614
+        "score": 0.8405867
       },
       {
-        "title": "Microsoft unveils Copilot Cowork agents built on Anthropic’s AI and E7 AI product suite as it seeks to calm investor concerns about AI eating SaaS",
-        "title_zh": "Microsoft unveils Copilot Cowork agents built on Anthropic’s AI and E7 AI product suite as it seeks to calm investor concerns about AI eating SaaS",
-        "url": "https://finance.yahoo.com/news/microsoft-unveils-copilot-cowork-agents-130000074.html",
+        "title": "Product Copilot - The AI for Product Owners and Product Managers",
+        "title_zh": "Product Copilot - The AI for Product Owners and Product Managers",
+        "url": "https://product-copilot.ai/docs",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -441,40 +456,10 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.83452857
-      },
-      {
-        "title": "Exclusive-OpenAI to release web browser in challenge to Google Chrome",
-        "title_zh": "Exclusive-OpenAI to release web browser in challenge to Google Chrome",
-        "url": "https://ca.finance.yahoo.com/news/exclusive-openai-release-browser-challenge-180038845.html",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8332299
+        "score": 0.83678174
       }
     ],
     "startup": [
-      {
-        "title": "AI Acquisition - Crunchbase Company Profile & Funding",
-        "title_zh": "AI Acquisition - Crunchbase Company Profile & Funding",
-        "url": "https://www.crunchbase.com/organization/ai-acquisition",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.9255605
-      },
       {
         "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks | TechCrunch",
         "title_zh": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks | TechCrunch",
@@ -596,9 +581,9 @@
         "score": 0.8815438
       },
       {
-        "title": "The Week’s 10 Biggest Funding Rounds: Physical AI Startup Atoms Leads In Varied Week For Large Deals",
-        "title_zh": "The Week’s 10 Biggest Funding Rounds: Physical AI Startup Atoms Leads In Varied Week For Large Deals",
-        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms",
+        "title": "AI Lead Gen - PitchBook",
+        "title_zh": "AI Lead Gen - PitchBook",
+        "url": "https://pitchbook.com/ai-ml-investment-overview",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -608,7 +593,22 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.8793233
+        "score": 0.8742601
+      },
+      {
+        "title": "The Largest AI Startup Funding Deals Of 2024",
+        "title_zh": "The Largest AI Startup Funding Deals Of 2024",
+        "url": "https://news.crunchbase.com/ai/largest-ai-startup-funding-deals-2024",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.87166095
       }
     ],
     "bigtech": [
@@ -643,6 +643,21 @@
         "score": 0.8825193
       },
       {
+        "title": "The AI Strategy Roadmap: Practical guidance for AI implementation | The Microsoft Cloud Blog",
+        "title_zh": "The AI Strategy Roadmap: Practical guidance for AI implementation | The Microsoft Cloud Blog",
+        "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/04/03/the-ai-strategy-roadmap-navigating-the-stages-of-value-creation",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.87706697
+      },
+      {
         "title": "Amazon helps fund NSF high-priority AI research initiative - Amazon Science",
         "title_zh": "Amazon helps fund NSF high-priority AI research initiative - Amazon Science",
         "url": "https://www.amazon.science/blog/amazon-supports-nsf-research-in-human-ai-interaction-collaboration",
@@ -656,21 +671,6 @@
         "topics": [],
         "source": "tavily",
         "score": 0.8706085
-      },
-      {
-        "title": "Amazon launches research initiative with Stanford University to advance AI and science - Amazon Science",
-        "title_zh": "Amazon launches research initiative with Stanford University to advance AI and science - Amazon Science",
-        "url": "https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8665964
       },
       {
         "title": "The AI Strategy Roadmap: Five drivers of successful AI transformation | The Microsoft Cloud Blog",
@@ -718,9 +718,9 @@
         "score": 0.8512743
       },
       {
-        "title": "Artificial Intelligence overview - Microsoft Service Assurance | Microsoft Learn",
-        "title_zh": "Artificial Intelligence overview - Microsoft Service Assurance | Microsoft Learn",
-        "url": "https://learn.microsoft.com/en-us/compliance/assurance/assurance-artificial-intelligence",
+        "title": "AI in Business and Corporate Strategy | Microsoft AI",
+        "title_zh": "AI in Business and Corporate Strategy | Microsoft AI",
+        "url": "https://www.microsoft.com/en-us/ai/ai-business-value-and-benefits",
         "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -730,7 +730,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.8464638
+        "score": 0.8506799
       },
       {
         "title": "Amazon and Carnegie Mellon University launch strategic AI Innovation Hub - Amazon Science",
@@ -795,21 +795,6 @@
         "score": 0.92507464
       },
       {
-        "title": "Top 7 AI Product Design Trends to Watch in 2026 | by Namrata Panchal | ProCreator - A Global UI UX Design Agency | Medium",
-        "title_zh": "Top 7 AI Product Design Trends to Watch in 2026 | by Namrata Panchal | ProCreator - A Global UI UX Design Agency | Medium",
-        "url": "https://medium.com/procreator-design/top-7-ai-product-design-trends-to-watch-in-2026-9795fa4d8a62",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.9154545
-      },
-      {
         "title": "ChatGPT’s Latest Update: From Scripts to the Canvas",
         "title_zh": "ChatGPT’s Latest Update: From Scripts to the Canvas",
         "url": "https://medium.com/@NSK.AI/chatgpts-latest-update-from-scripts-to-the-canvas-7fada0d9cc62",
@@ -823,21 +808,6 @@
         "topics": [],
         "source": "tavily",
         "score": 0.8752871
-      },
-      {
-        "title": "From Command Lines to Chatbots: How AI UX Is Repeating History",
-        "title_zh": "From Command Lines to Chatbots: How AI UX Is Repeating History",
-        "url": "https://medium.com/@praveeninfo.ks_76765/from-command-lines-to-chatbots-how-ai-ux-is-repeating-history-280805bcfb57",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.86331123
       },
       {
         "title": "Roadmap for an AI-Powered UX Design Agent",
@@ -855,6 +825,36 @@
         "score": 0.84767824
       },
       {
+        "title": "The New Design Workflow: How AI and Design Systems Are Reshaping Product Design in 2026 | by Mageswari | Medium",
+        "title_zh": "The New Design Workflow: How AI and Design Systems Are Reshaping Product Design in 2026 | by Mageswari | Medium",
+        "url": "https://medium.com/@Rythmuxdesigner/the-new-design-workflow-how-ai-and-design-systems-are-reshaping-product-design-in-2026-17a3463423fa",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.843393
+      },
+      {
+        "title": "Claude Code + Figma = The New AI Design Workflow",
+        "title_zh": "Claude Code + Figma = The New AI Design Workflow",
+        "url": "https://medium.com/@ayushi.parmar.2520/claude-code-figma-the-new-ai-design-workflow-e84d09b4e1ad",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8430832
+      },
+      {
         "title": "How my design workflow is changing with AI",
         "title_zh": "How my design workflow is changing with AI",
         "url": "https://medium.com/@kazdenc/how-my-design-workflow-is-changing-with-ai-bc80e7fa3323",
@@ -868,21 +868,6 @@
         "topics": [],
         "source": "tavily",
         "score": 0.8415267
-      },
-      {
-        "title": "AI Agents in UX Design: New Rules for 2026 | Medium",
-        "title_zh": "AI Agents in UX Design: New Rules for 2026 | Medium",
-        "url": "https://webdesignerindia.medium.com/how-ai-agents-are-rewriting-ux-design-rules-in-2026-73ed56e4b5b6",
-        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8412138
       },
       {
         "title": "Cursor, “vibe coding,” and Manus: the UX revolution that AI ...",
@@ -913,6 +898,21 @@
         "topics": [],
         "source": "tavily",
         "score": 0.8399576
+      },
+      {
+        "title": "Agentic AI Workflows Design Patterns, Examples, and what to watch in 2025 | by Shanding P. G | CodeX | Medium",
+        "title_zh": "Agentic AI Workflows Design Patterns, Examples, and what to watch in 2025 | by Shanding P. G | CodeX | Medium",
+        "url": "https://medium.com/codex/agentic-ai-workflows-design-patterns-examples-and-what-to-watch-in-2025-a3602b19b7e8",
+        "summary": "内容解析失败: Error code: 404 - {'error': {'message': 'Not found",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8396422
       }
     ]
   },
