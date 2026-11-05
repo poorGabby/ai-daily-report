@@ -1,24 +1,9 @@
 {
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T05:50:00.881808",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T06:08:12.516277",
   "daily_summary": "今日共收集到60条AI领域重要资讯，涵盖技术发布、产品动态、融资等多个维度。",
   "categories": {
     "technology": [
-      {
-        "title": "A Survey on Generative AI and LLM for Video Generation, Understanding, and Streaming",
-        "title_zh": "A Survey on Generative AI and LLM for Video Generation, Understanding, and Streaming",
-        "url": "https://arxiv.org/html/2404.16038v1",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8943568
-      },
       {
         "title": "September(2025) LLM Core Knowledge & Reasoning Benchmarks Report [Foresight Analysis] By (AIPRL-LIR) AI Parivartan Research Lab(AIPRL)-LLMs Intelligence Report",
         "title_zh": "September(2025) LLM Core Knowledge & Reasoning Benchmarks Report [Foresight Analysis] By (AIPRL-LIR) AI Parivartan Research Lab(AIPRL)-LLMs Intelligence Report",
@@ -32,22 +17,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.8875269
-      },
-      {
-        "title": "GitHub - jqueryscript/anthropic-claude-timeline: A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones. · GitHub",
-        "title_zh": "GitHub - jqueryscript/anthropic-claude-timeline: A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones. · GitHub",
-        "url": "https://github.com/jqueryscript/anthropic-claude-timeline",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.87605256
+        "score": 0.8877607
       },
       {
         "title": "State of open video generation models in Diffusers",
@@ -125,21 +95,6 @@
         "score": 0.8539252
       },
       {
-        "title": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms",
-        "title_zh": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms",
-        "url": "https://arxiv.org/html/2603.28489v2",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.85008353
-      },
-      {
         "title": "Release notes | Claude Help Center",
         "title_zh": "Release notes | Claude Help Center",
         "url": "https://docs.anthropic.com/en/release-notes/claude-apps",
@@ -153,39 +108,54 @@
         "topics": [],
         "source": "tavily",
         "score": 0.84918517
+      },
+      {
+        "title": "ChatGPT release notes | OpenAI Help Center",
+        "title_zh": "ChatGPT release notes | OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.84767824
+      },
+      {
+        "title": "AI Powered High Quality Text to Video Generation with Enhanced Temporal Consistency",
+        "title_zh": "AI Powered High Quality Text to Video Generation with Enhanced Temporal Consistency",
+        "url": "https://arxiv.org/html/2511.00107v1",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.84767824
+      },
+      {
+        "title": "Introducing the Gemini 2.5 Computer Use model",
+        "title_zh": "Introducing the Gemini 2.5 Computer Use model",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-computer-use-model",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8443195
       }
     ],
     "producthunt": [
-      {
-        "title": "Artificial Intelligence | Product Hunt",
-        "title_zh": "Artificial Intelligence | Product Hunt",
-        "url": "https://www.producthunt.com/topics/artificial-intelligence?posted=last_24_hours",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8808076
-      },
-      {
-        "title": "Curated List of AI Tools: 140+ AI Tools for Startup/Digital Marketer | Product Hunt",
-        "title_zh": "Curated List of AI Tools: 140+ AI Tools for Startup/Digital Marketer | Product Hunt",
-        "url": "https://www.producthunt.com/products/curated-list-of-ai-tools",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8245895
-      },
       {
         "title": "AI Launch List: 100+ AI directories to showcase your AI products | Product Hunt",
         "title_zh": "AI Launch List: 100+ AI directories to showcase your AI products | Product Hunt",
@@ -202,9 +172,9 @@
         "score": 0.81665546
       },
       {
-        "title": "Best of Product Hunt: 2026",
-        "title_zh": "Best of Product Hunt: 2026",
-        "url": "https://www.producthunt.com/leaderboard/yearly/2026",
+        "title": "Best of Product Hunt: November 1, 2026 | Product Hunt",
+        "title_zh": "Best of Product Hunt: November 1, 2026 | Product Hunt",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/11/1",
         "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -214,7 +184,52 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.79293
+        "score": 0.81418616
+      },
+      {
+        "title": "Product Hunt – The best new products in tech.",
+        "title_zh": "Product Hunt – The best new products in tech.",
+        "url": "https://www.producthunt.com/topics",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8095324
+      },
+      {
+        "title": "Best of Product Hunt: May 2026 | Product Hunt",
+        "title_zh": "Best of Product Hunt: May 2026 | Product Hunt",
+        "url": "https://www.producthunt.com/leaderboard/monthly/2026/5",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.7942736
+      },
+      {
+        "title": "Iris.ai: Research discovery with artificial intelligence  | Product Hunt",
+        "title_zh": "Iris.ai: Research discovery with artificial intelligence  | Product Hunt",
+        "url": "https://www.producthunt.com/products/iris-ai",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.79369855
       },
       {
         "title": "Best products of October 2026 | Product Hunt",
@@ -232,9 +247,9 @@
         "score": 0.78650844
       },
       {
-        "title": "Social Media Products & Tools (2026) | Product Hunt",
-        "title_zh": "Social Media Products & Tools (2026) | Product Hunt",
-        "url": "https://www.producthunt.com/topics/social-media",
+        "title": "Best of Product Hunt: August 4, 2026",
+        "title_zh": "Best of Product Hunt: August 4, 2026",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/8/4",
         "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -244,7 +259,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.7781275
+        "score": 0.77179235
       },
       {
         "title": "Product Hunt – The best new products in tech.",
@@ -259,12 +274,12 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.7568076
+        "score": 0.75659186
       },
       {
-        "title": "ProductHunt without AI Products: Automatically removes AI products from ProductHunt. | Product Hunt",
-        "title_zh": "ProductHunt without AI Products: Automatically removes AI products from ProductHunt. | Product Hunt",
-        "url": "https://www.producthunt.com/products/producthunt-without-ai-products",
+        "title": "Product Hunt 🤝 OpenAI : OpenAI Discussion Forums | Product Hunt",
+        "title_zh": "Product Hunt 🤝 OpenAI : OpenAI Discussion Forums | Product Hunt",
+        "url": "https://www.producthunt.com/p/openai/product-hunt-openai",
         "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -274,12 +289,12 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.7557276
+        "score": 0.7555112
       },
       {
-        "title": "The Best AI Workflow Automation Tools | Product Hunt",
-        "title_zh": "The Best AI Workflow Automation Tools | Product Hunt",
-        "url": "https://www.producthunt.com/categories/ai-workflow-automation",
+        "title": "Best of Product Hunt: Week of September 21, 2026 | Product Hunt",
+        "title_zh": "Best of Product Hunt: Week of September 21, 2026 | Product Hunt",
+        "url": "https://www.producthunt.com/leaderboard/weekly/2026/39",
         "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -289,22 +304,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.7458619
-      },
-      {
-        "title": "Best of Product Hunt: June 2026 | Product Hunt",
-        "title_zh": "Best of Product Hunt: June 2026 | Product Hunt",
-        "url": "https://www.producthunt.com/leaderboard/monthly/2026/6",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.73596483
+        "score": 0.74541736
       }
     ],
     "product": [
@@ -324,6 +324,21 @@
         "score": 0.8995547
       },
       {
+        "title": "OpenAI is reportedly releasing an AI browser in the coming weeks | TechCrunch",
+        "title_zh": "OpenAI is reportedly releasing an AI browser in the coming weeks | TechCrunch",
+        "url": "https://techcrunch.com/2025/07/09/openai-is-reportedly-releasing-an-ai-browser-in-the-coming-weeks",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8706085
+      },
+      {
         "title": "7 NEW Features in the Notion 3.4 Update | Full Tutorial & Guide – The Organized Notebook",
         "title_zh": "7 NEW Features in the Notion 3.4 Update | Full Tutorial & Guide – The Organized Notebook",
         "url": "https://theorganizednotebook.com/blogs/blog/notion-3-4-update",
@@ -337,36 +352,6 @@
         "topics": [],
         "source": "tavily",
         "score": 0.8674071
-      },
-      {
-        "title": "6 NEW Features in the Notion 3.4 Update | Full Tutorial & Guide",
-        "title_zh": "6 NEW Features in the Notion 3.4 Update | Full Tutorial & Guide",
-        "url": "https://www.youtube.com/watch?v=VDwpfCSAu3I",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.86441374
-      },
-      {
-        "title": "The new Notion AI updates are incredible",
-        "title_zh": "The new Notion AI updates are incredible",
-        "url": "https://www.reddit.com/r/Notion/comments/1n3av27/the_new_notion_ai_updates_are_incredible",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8497846
       },
       {
         "title": "What’s New – Notion",
@@ -414,9 +399,9 @@
         "score": 0.8412138
       },
       {
-        "title": "Exclusive-OpenAI to release web browser in challenge to Google Chrome",
-        "title_zh": "Exclusive-OpenAI to release web browser in challenge to Google Chrome",
-        "url": "https://ca.finance.yahoo.com/news/exclusive-openai-release-browser-challenge-180038845.html",
+        "title": "OpenAI to release web browser in challenge to Google Chrome",
+        "title_zh": "OpenAI to release web browser in challenge to Google Chrome",
+        "url": "https://www.cnbc.com/amp/2025/07/09/openai-to-release-web-browser-in-challenge-to-google-chrome.html",
         "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -426,7 +411,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.8409005
+        "score": 0.8412138
       },
       {
         "title": "Exclusive-OpenAI to release web browser in challenge to Google Chrome",
@@ -444,9 +429,9 @@
         "score": 0.8409005
       },
       {
-        "title": "YXT.com hosts AI-focused enterprise productivity product launch event",
-        "title_zh": "YXT.com hosts AI-focused enterprise productivity product launch event",
-        "url": "https://uk.investing.com/news/company-news/yxtcom-hosts-aifocused-enterprise-productivity-product-launch-event-93CH-4268399",
+        "title": "16 New Notion Updates (in just 16 minutes)",
+        "title_zh": "16 New Notion Updates (in just 16 minutes)",
+        "url": "https://www.youtube.com/watch?v=GnonRPjbzZY",
         "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -456,25 +441,25 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.83932644
+        "score": 0.8380581
+      },
+      {
+        "title": "Microsoft unveils Copilot Cowork agents built on Anthropic’s AI and E7 AI product suite as it seeks to calm investor concerns about AI eating SaaS",
+        "title_zh": "Microsoft unveils Copilot Cowork agents built on Anthropic’s AI and E7 AI product suite as it seeks to calm investor concerns about AI eating SaaS",
+        "url": "https://finance.yahoo.com/news/microsoft-unveils-copilot-cowork-agents-130000074.html",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.83452857
       }
     ],
     "startup": [
-      {
-        "title": "AI Acquisition - Crunchbase Company Profile & Funding",
-        "title_zh": "AI Acquisition - Crunchbase Company Profile & Funding",
-        "url": "https://www.crunchbase.com/organization/ai-acquisition",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.9255605
-      },
       {
         "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks | TechCrunch",
         "title_zh": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks | TechCrunch",
@@ -489,6 +474,21 @@
         "topics": [],
         "source": "tavily",
         "score": 0.9104262
+      },
+      {
+        "title": "Andreessen Horowitz's $415M Mistral investment rounds out AI strategy - PitchBook",
+        "title_zh": "Andreessen Horowitz's $415M Mistral investment rounds out AI strategy - PitchBook",
+        "url": "https://pitchbook.com/news/articles/andreessen-horowitz-mistral-ai-vc-investment",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.9057319
       },
       {
         "title": "Q1 2026 Shatters Venture Funding Records As AI Boom Pushes Startup Investment To $300B",
@@ -551,6 +551,21 @@
         "score": 0.9008183
       },
       {
+        "title": "3 Ways AI Is Transforming Venture Capital Investment",
+        "title_zh": "3 Ways AI Is Transforming Venture Capital Investment",
+        "url": "https://news.crunchbase.com/ai/transforming-vc-investment-nikkhoo-navigate",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8991304
+      },
+      {
         "title": "The Week’s 10 Biggest Funding Rounds: Almost All About AI",
         "title_zh": "The Week’s 10 Biggest Funding Rounds: Almost All About AI",
         "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct",
@@ -566,6 +581,21 @@
         "score": 0.89302075
       },
       {
+        "title": "The Week’s 10 Biggest Funding Rounds: Spending Contracts For Latest AI-Driven Startup Batch",
+        "title_zh": "The Week’s 10 Biggest Funding Rounds: Spending Contracts For Latest AI-Driven Startup Batch",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.89166987
+      },
+      {
         "title": "AI Is Gorging On Venture Capital. This Is Why ‘Physical AI’ Is Next",
         "title_zh": "AI Is Gorging On Venture Capital. This Is Why ‘Physical AI’ Is Next",
         "url": "https://news.crunchbase.com/venture/capital-physical-ai-next-wave-onetti-mindthebridge",
@@ -579,36 +609,6 @@
         "topics": [],
         "source": "tavily",
         "score": 0.89121616
-      },
-      {
-        "title": "Sector Snapshot: Venture Funding To Foundational AI Startups In Q1 Was Double All Of 2025",
-        "title_zh": "Sector Snapshot: Venture Funding To Foundational AI Startups In Q1 Was Double All Of 2025",
-        "url": "https://news.crunchbase.com/venture/foundational-ai-startup-funding-doubled-openai-anthropic-xai-q1-2026",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8815438
-      },
-      {
-        "title": "New leaders, new fund: Sequoia has raised $7B to expand its AI bets | TechCrunch",
-        "title_zh": "New leaders, new fund: Sequoia has raised $7B to expand its AI bets | TechCrunch",
-        "url": "https://techcrunch.com/2026/04/16/new-leaders-new-fund-sequoia-has-raised-7b-to-expand-its-ai-bets",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.87605256
       }
     ],
     "bigtech": [
@@ -643,21 +643,6 @@
         "score": 0.93952066
       },
       {
-        "title": "Amazon's ($AMZN) AI Revolution… - Investing in Intelligence",
-        "title_zh": "Amazon's ($AMZN) AI Revolution… - Investing in Intelligence",
-        "url": "https://podcasts.apple.com/tr/podcast/amazons-%24amzn-ai-revolution-how-aws-and-robotics-are/id1739281151?i=1000673725191&l=tr",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.91023487
-      },
-      {
         "title": "The AI Strategy Roadmap: Five drivers of successful AI transformation | The Microsoft Cloud Blog",
         "title_zh": "The AI Strategy Roadmap: Five drivers of successful AI transformation | The Microsoft Cloud Blog",
         "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/07/21/the-ai-strategy-roadmap-five-drivers-of-successful-ai-transformation",
@@ -671,21 +656,6 @@
         "topics": [],
         "source": "tavily",
         "score": 0.89279664
-      },
-      {
-        "title": "AI Strategy Roadmap | Microsoft AI",
-        "title_zh": "AI Strategy Roadmap | Microsoft AI",
-        "url": "https://info.microsoft.com/ww-landing-the-ai-strategy-roadmap.html",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8832463
       },
       {
         "title": "The AI Strategy Roadmap | Microsoft AI",
@@ -703,9 +673,9 @@
         "score": 0.8812988
       },
       {
-        "title": "Amazon helps fund NSF high-priority AI research initiative - Amazon Science",
-        "title_zh": "Amazon helps fund NSF high-priority AI research initiative - Amazon Science",
-        "url": "https://www.amazon.science/blog/amazon-supports-nsf-research-in-human-ai-interaction-collaboration",
+        "title": "AI in Business and Corporate Strategy | Microsoft AI",
+        "title_zh": "AI in Business and Corporate Strategy | Microsoft AI",
+        "url": "https://www.microsoft.com/en-us/ai/ai-business-value-and-benefits",
         "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -715,22 +685,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.8706085
-      },
-      {
-        "title": "OpenAI and UK Government announce strategic partnership to deliver AI-driven growth | OpenAI",
-        "title_zh": "OpenAI and UK Government announce strategic partnership to deliver AI-driven growth | OpenAI",
-        "url": "https://openai.com/global-affairs/openai-and-uk-government-partnership",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.8668671
+        "score": 0.8755427
       },
       {
         "title": "Amazon launches research initiative with Stanford University to advance AI and science - Amazon Science",
@@ -761,6 +716,51 @@
         "topics": [],
         "source": "tavily",
         "score": 0.8638634
+      },
+      {
+        "title": "Amazon and Virginia Tech launch AI and ML research initiative - Amazon Science",
+        "title_zh": "Amazon and Virginia Tech launch AI and ML research initiative - Amazon Science",
+        "url": "https://www.amazon.science/academic-engagements/amazon-and-virginia-tech-launch-ai-and-ml-research-initiative",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.84767824
+      },
+      {
+        "title": "Research collaborations - Amazon Science",
+        "title_zh": "Research collaborations - Amazon Science",
+        "url": "https://www.amazon.science/academic-engagements/research-collaborations",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.8386933
+      },
+      {
+        "title": "Amazon and Carnegie Mellon University launch strategic AI Innovation Hub - Amazon Science",
+        "title_zh": "Amazon and Carnegie Mellon University launch strategic AI Innovation Hub - Amazon Science",
+        "url": "https://www.amazon.science/news/amazon-and-carnegie-mellon-university-launch-strategic-ai-innovation-hub",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.83742094
       }
     ],
     "uxtrend": [
@@ -808,6 +808,21 @@
         "topics": [],
         "source": "tavily",
         "score": 0.8415267
+      },
+      {
+        "title": "AI and Design: How Artificial Intelligence Assists Designers and How Designers Create AI‑Friendly…",
+        "title_zh": "AI and Design: How Artificial Intelligence Assists Designers and How Designers Create AI‑Friendly…",
+        "url": "https://medium.com/@gwrx2005/ai-and-design-how-artificial-intelligence-assists-designers-and-how-designers-create-ai-friendly-df97320884ae",
+        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
+        "problem": "解析失败",
+        "applicable": "解析失败",
+        "example": "解析失败",
+        "published_date": null,
+        "votes": 0,
+        "comments": 0,
+        "topics": [],
+        "source": "tavily",
+        "score": 0.83742094
       },
       {
         "title": "The AI Workflow Pyramid for Product Designers - Medium",
@@ -870,9 +885,9 @@
         "score": 0.82761955
       },
       {
-        "title": "The new ChatGPT App update",
-        "title_zh": "The new ChatGPT App update",
-        "url": "https://medium.com/@exceed73/the-new-chatgpt-app-update-62627250f080",
+        "title": "3 useful instruments to enable your Agentic UX turn user intent ...",
+        "title_zh": "3 useful instruments to enable your Agentic UX turn user intent ...",
+        "url": "https://resolutesoftware.medium.com/3-useful-instruments-to-enable-your-agentic-ux-turn-user-intent-into-business-outcomes-fb0813bbe410",
         "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
         "problem": "解析失败",
         "applicable": "解析失败",
@@ -882,7 +897,7 @@
         "comments": 0,
         "topics": [],
         "source": "tavily",
-        "score": 0.82492816
+        "score": 0.8259413
       },
       {
         "title": "AI Agent Workflow Design Patterns — An Overview | by Craig Li, Ph.D | Binome | Medium",
@@ -898,21 +913,6 @@
         "topics": [],
         "source": "tavily",
         "score": 0.8245895
-      },
-      {
-        "title": "From Trust to Control: A Designer’s Guide to Human–AI Interaction Patterns”",
-        "title_zh": "From Trust to Control: A Designer’s Guide to Human–AI Interaction Patterns”",
-        "url": "https://medium.com/@dhantole45/from-trust-to-control-a-designers-guide-to-human-ai-interaction-patterns-81981c0a452d",
-        "summary": "内容解析失败: Error code: 404 - Not found the model moonshot-v1-",
-        "problem": "解析失败",
-        "applicable": "解析失败",
-        "example": "解析失败",
-        "published_date": null,
-        "votes": 0,
-        "comments": 0,
-        "topics": [],
-        "source": "tavily",
-        "score": 0.82391036
       }
     ]
   },
